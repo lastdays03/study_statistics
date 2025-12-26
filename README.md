@@ -27,6 +27,13 @@
 
 총 4개의 집중 세션으로 구성되며, 각 세션은 하나의 **통합 노트북(Integrated Notebook)**으로 제공됩니다.
 
+### [Session 0: Math Basics (Survival Kit)](notebooks/00_math_basics.ipynb)
+- **목표**: "수포자"를 위한 코드 기반 수학 입문.
+- **핵심 주제**:
+    - **Theory as Code**: $\sum, \prod$ 기호를 파이썬 `for`, `sum`으로 1:1 매핑.
+    - **미분(Derivative)**: 공식을 외우지 않고 '수치 미분' 코드로 경사하강법 구현.
+    - **선형대수**: 벡터 내적(=유사도)의 직관적 이해.
+
 ### [Session 1: 데이터 문해력과 기술 통계](notebooks/01_descriptive_stats.ipynb)
 - **목표**: 통계의 언어와 데이터의 본질 이해.
 - **핵심 주제**:
@@ -84,10 +91,11 @@ jupyter notebook notebooks/01_descriptive_stats.ipynb
 ```
 .
 ├── notebooks/          # 핵심: 통합 학습 노트북
+│   ├── 00_math_basics.ipynb
+│   ├── 00_math_basics_exercises.ipynb
 │   ├── 01_descriptive_stats.ipynb
-│   ├── 02_probability_distribution.ipynb
-│   ├── 03_correlation_regression.ipynb
-│   └── 04_vectors_evaluation.ipynb
+│   ├── 01_descriptive_stats_exercises.ipynb
+│   └── ... (각 세션별 _exercises.ipynb 포함)
 ├── docs/
 │   └── plans/          # 커리큘럼 설계 문서
 ├── references/         # 참고 자료 (Skill, Templates)
